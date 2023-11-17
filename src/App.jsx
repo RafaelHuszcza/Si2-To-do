@@ -101,7 +101,7 @@ export function App() {
       <div className="mb-4">
         <h2 className="text-lg font-bold mb-2">Tasks</h2>
         <ul>
-          {filteredTasks.filter(filterTasks).map((task, index) => (
+          {filteredTasks.filter(filterTasks).map((task) => (
             <li
               key={task.id}
               className={`flex items-center justify-between p-2 border ${task.status === 'completed' ? 'bg-green-800' : 'bg-yellow-500'
