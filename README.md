@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado para materia de Sistemas para internet 2, com o intuito de apresentar conceitos básicos do react, 
+foram utilizados localStorage para armazenamento de tarefas no navegador, e o useState para gerenciamento de estados e re-renderização quando necessária.
 
-Currently, two official plugins are available:
+Para rodar o projeto basta clonar o repositório, Rodar o Comando 
+npm i
+para intalar as dependencias e o comando 
+npm run dev 
+para rodar a aplicação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
